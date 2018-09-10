@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exerc01</string>
+    <string name="combustivel">Combustivel</string>
+    <string name="autonomia">Autonomia</string>
+    <string name="Gasolina">Gasolina</string>
+    <string name="Alcool">Álcool</string>
+    <string name="verificar">Verificar</string>
+    <string name="litros">Litros</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Combustivel">
+
+
+    <EditText
+        android:id="@+id/txtGas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Gasolina"
+        />
+
+    <EditText
+        android:id="@+id/txtAlco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtGas"
+        android:hint="@string/Alcool"
+        />
+
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verificar"
+        android:layout_below="@id/txtAlco"/>
+
+</RelativeLayout>
